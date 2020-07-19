@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 3px 2px 20px #000000a9;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px;
+  align-items: center;
+  width: 35vw;
+  min-height: 94vh;
+  background: linear-gradient(rgb(4, 5, 78), rgb(47, 6, 81));
+  color: #fff;
+}
+
+.TodoListmain {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.mainbtn {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 21vw !important;
+}
+button:disabled {
+  background-color: #cccccc !important;
+  color: #666666;
+}
+.MuiListItem-gutters {
+  padding: 0 !important;
+}
+.todinput {
+  width: 30vw !important;
+  height: auto;
+}
+.files {
+  background: #fbfbfb;
+  width: 30vw !important;
+}
+.files,
+.addBtn {
+  border-radius: 10px;
+}
+.addBtn {
+  width: 10vw !important;
+  height: 50px !important;
+  color: #fbfbfb;
+}
+
+.Listitem {
+  width: 30vw !important;
+  height: 50px;
+  text-align: left;
+  margin-bottom: 15px;
+  background: #00b084 !important;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center !important;
+}
+
+.MuiCardContent-root {
+  padding: 0 20px !important;
+}
